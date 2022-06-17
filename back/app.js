@@ -36,7 +36,7 @@ app.use(customResponse);
 app.use(errorHandler);
 
 const port = process.env.PORT || 5000;
-
+console.log("hello world");
 app.listen(port, () => {
   console.log(`server is listening on port ${port}`);
 });
